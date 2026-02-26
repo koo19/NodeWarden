@@ -13,7 +13,7 @@ binding = "ATTACHMENTS"
 bucket_name = "nodewarden-attachments"
 
 [placement]
-region = "aws:ap-southeast-1"
+region = "aws:ap-east-1"
 
 [observability]
 enabled = true
