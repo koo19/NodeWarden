@@ -11,3 +11,18 @@ database_name = "nodewarden-db"
 [[r2_buckets]]
 binding = "ATTACHMENTS"
 bucket_name = "nodewarden-attachments"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = true
+persist = true
+head_sampling_rate = 1
