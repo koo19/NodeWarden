@@ -1,4 +1,4 @@
-name = "nodewarden"
+name = "nw"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
@@ -11,3 +11,6 @@ database_name = "nodewarden-db"
 [[r2_buckets]]
 binding = "ATTACHMENTS"
 bucket_name = "nodewarden-attachments"
+
+[placement]
+region = "aws:ap-southeast-1"
